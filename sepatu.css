@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT */
+.left {
+    flex: 1;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+.left h1 {
+    font-size: 40px;
+}
+
+.left p {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* RIGHT */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8fafc;
+}
+
+.login-box {
+    width: 340px;
+}
+
+.login-box h2 {
+    margin-bottom: 15px;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* BUTTON STYLE */
+.btn-primary {
+    background: #0f172a;
+    color: white;
+}
+
+.btn-google {
+    background: #db4437;
+    color: white;
+}
+
+.divider {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0f172a;
+}
